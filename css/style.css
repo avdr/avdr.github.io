@@ -1,0 +1,35 @@
+/* Social Buttons */
+.social-buttons a i, .social-buttons a i:hover {
+	font-size: 2em;
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	color: #BBC7CC;
+}
+
+.social-buttons a i:hover {
+	color: #4a4a4a;
+	transition: color ease 0.3s;
+}
+
+.social-buttons {
+	float: right;
+	margin-top: 10px;
+}
+
+@media only screen and (max-width : 1024px) {
+	.social-buttons a i, .social-buttons a i:hover {
+		font-size: 2.5em;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+
+@media only screen and (max-width : 500px) {
+	.social-buttons {
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		float: none;
+	}
+}

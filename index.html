@@ -1,0 +1,14 @@
+---
+layout: default
+title: Abhay Vardhan
+---
+
+    {% for post in site.posts %}
+      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p>
+              {{ post.excerpt }}
+          </p>
+      {% unless forloop.last %}
+      <hr>
+      {% endunless %}
+    {% endfor %}
