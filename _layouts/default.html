@@ -34,25 +34,16 @@
 
 
                 <header id="masthead" class="site-header" role="banner">
-                    <a class="site-logo" href="/">
-                        <img alt='Abhay Vardhan' src='/assets/abhay.png' class='avatar avatar-100 photo' height='100' width='100' />		</a>
+                    {% include author.html %}
                     <hgroup>
-                        <h1 class="site-title">
-                            <span class="byline"><span class="author vcard"><a class="url fn n" href="/" title="View all posts" rel="author">Abhay Vardhan</a></span></span>			</h1>
-
-                        <h2 class="site-description">Entreprenuer. Thinker<br/>Husband. Father<br/>
-                            <a href="http://twitter.com/abhayvardhan">@abhayvardhan</a></h2>
+                        {% include sidebio.html %}
                     </hgroup>
-
+                    {% if page.show_date %}
                     <div class="site-published-separator"></div>
                     <hgroup>
-                        <h2 class="site-published">Published</h2>
-
-                        <h2 class="site-published-date"><a href="{{ page.url }}" rel="bookmark"><time class="entry-date" datetime="{{ page.date }}" pubdate>{{ page.date | date: "%-d %B, %Y" }}</time></a></h2>
-
-                        <h2 class="site-published-location"></h2>
-
+                        {% include published.html %}
                     </hgroup>
+                    {% endif %}
                 </header>
 
 
@@ -60,28 +51,19 @@
                     {{ content }}
                     <div class="post-author-bottom">
                         <div class="post-author-card">
-                            <a class="site-logo" href="/">
-                                <img alt='Abhay Vardhan' src='/assets/abhay.png' class='avatar avatar-100 photo' height='100' width='100' />		</a>
-
+                                {% include author.html %}
                             <div class="post-author-info">
-                                <h1 class="site-title">
-                                    <span class="byline"><span class="author vcard"><a class="url fn n" href="/" title="View all posts" rel="author">Abhay Vardhan</a></span></span>				</h1>
-
-                                <h2 class="site-description">Entreprenuer. Thinker<br/>
-                                    Husband. Father<br/>
-                                    <a href="http://twitter.com/abhayvardhan">@abhayvardhan</a></h2>
+                                {% include sidebio.html %}
                             </div>
+                            {% if page.show_date %}
                             <div class="post-published-date">
-                                <h2 class="site-published">Published</h2>
-
-                                <h2 class="site-published-date"><a href="{{ page.url }}" rel="bookmark"><time class="entry-date" datetime="{{ page.date }}" pubdate>{{ page.date | date: "%-d %B, %Y" }}</time></a></h2>
-
-                                <h2 class="site-published-location">
-                                </h2>
+                                {% include published.html %}
                             </div>
+                            {% endif %}
                         </div>
                     </div>
 
+                    {% if page.show_footer %}
                     <footer class="entry-meta">
                         <div class="social-buttons">
                             <a target="_new" href="https://twitter.com/share?text=Welcome!&url=http://independentpublisher.me/2013/welcome/" title="Share 'Welcome!' on Twitter" onclick="share_button_popup(this.href); return false;"><i class="icon-twitter"></i></a>
@@ -89,6 +71,7 @@
                             <a target="_new" href="https://plusone.google.com/_/+1/confirm?hl=en&url=http://independentpublisher.me/2013/welcome/" title="Share 'Welcome!' on Google+" onclick="share_button_popup(this.href); return false;"><i class="icon-google-plus-sign"></i></a>
                         </div>
                     </footer>
+                    {% endif %}
 
                 </article>
             </div>
