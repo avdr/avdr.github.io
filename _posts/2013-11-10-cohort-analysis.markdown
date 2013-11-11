@@ -2,34 +2,6 @@
 layout: default
 title: Why you should look at cohorts
 ---
-<!--
-You should be only looking at cohorts
-
--- Entrepreneurs common mistake
-
--- Pitfalls of othis metrics
-
--- what is a cohort
-
--- How is that helpful
-* Actionable
-* Drilldown
-* Customer focus
-
--- Mixpanel/Kissmetrics (link to and tweet)
-
-Anything from RJMetrics?
-
--- Distibution vs engagement (link to)
-
--- Othis related metrics like Daily actives/Monthly actives, churn rate
-
--- Common retention rates for FB, Pinterest, Twitter
-
-Can we estimate retention rates for Pinterest etc
-
--------------------------------------------------------------------
--->
 Imagine that an entrepreneur came to you and showed you this graph.
 
 <img class="iborder" src="/assets/users_growth.png"/>
@@ -94,8 +66,33 @@ Given how crucial engagement is, won't it be awesome to be able to estimate enga
 
 ## Other engagement metrics
 
-
 <!--
+You should be only looking at cohorts
+
+-- Entrepreneurs common mistake
+
+-- Pitfalls of othis metrics
+
+-- what is a cohort
+
+-- How is that helpful
+* Actionable
+* Drilldown
+* Customer focus
+
+-- Mixpanel/Kissmetrics (link to and tweet)
+
+Anything from RJMetrics?
+
+-- Distibution vs engagement (link to)
+
+-- Othis related metrics like Daily actives/Monthly actives, churn rate
+
+-- Common retention rates for FB, Pinterest, Twitter
+
+Can we estimate retention rates for Pinterest etc
+
+-------------------------------------------------------------------
 
 http://500hats.typepad.com/500blogs/2009/09/startup-metrics-for-pirates-seedcamp-2009-sept-2009-london.html
 
