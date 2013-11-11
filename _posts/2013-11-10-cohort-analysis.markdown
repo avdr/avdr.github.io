@@ -43,9 +43,11 @@ Eventually, most user acquisition channels saturate. If the startup is unable to
 
 <img class="iborder" src="/assets/brush_fire.jpg"/>
 
-This is a hard lesson that I learned first hand. The first product that we launched was a walkie-talkie app that one could use to record a short audio clip and send it to a friend. We saw good viral growth as users invited their friends. User retention, however, was not so great. We saw that people would initially be very excited to use the app but in a few weeks would drop off. The end result was that although we grew to more than 1.5 million users, the residual activity remained small after a few months.
+This is a hard lesson that I learned first hand. The first product that we launched was a walkie-talkie app that one could use to record a short audio clip and send it to a friend. We saw good viral growth as users invited their friends. User retention, however, was not so great; people would initially be very excited to use the app but in a few weeks would drop off. The end result was that although we grew to more than 1.5 million users, the residual activity remained small after a few months.
 
-The lesson is to focus on user engagement and retention. In my experience, the best way to do this is by [cohort analysis](http://cohortanalysis.com).
+The lesson is to focus on user engagement and retention. The product needs to establish a lasting habit in users' minds. Nir Eyal has some great ideas around this using a framework called [desire engine](http://www.nirandfar.com/2012/03/how-to-manufacture-desire.html).
+
+How do we measure user engagement and retention? In my experience, the best way to do measure user retention is by [cohort analysis](http://cohortanalysis.com).
 
 ## Cohort Analysis
 
