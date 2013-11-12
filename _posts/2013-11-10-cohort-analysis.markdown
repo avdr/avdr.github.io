@@ -15,7 +15,7 @@ A common mistake entrepreneurs make is to focus too much on user growth. User gr
 
 <img class="iborder" src="/assets/brush_fire.jpg"/>
 
-I learned this the hard way with our first product. This was a walkie-talkie app in which a user could record a short audio clip and send it to a friend. We saw good viral growth as users invited others. User retention, however, was not so great; people would be very excited initially but in a few weeks they would drop off. The end result was that although we grew to more than 1.5 million users, the residual activity remained small after a few months.
+I learned this the hard way with our first product. This was a walkie-talkie app in which a user could record a short audio clip and send it to a friend. We saw good viral growth as users invited others. User retention, however, was not so great; people would be very excited initially but in a few weeks they would drop off. The end result was that although we grew to millions of users, the residual activity remained small after a few months.
 
 If the product is growing fast, it is too easy to forget retention. But to be successful, the product needs repeated usage which can only come by establishing a lasting habit in users' minds. Nir Eyal has some great ideas around this using a framework called [desire engine](http://www.nirandfar.com/2012/03/how-to-manufacture-desire.html).
 
