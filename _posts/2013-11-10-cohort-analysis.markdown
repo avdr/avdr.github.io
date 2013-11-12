@@ -66,7 +66,7 @@ Given how crucial retention is, would it not be awesome if you could estimate it
 
 ## Other measurement methods
 * Churn rate: this is the percentage of users who become inactive (churn out) in a period of time. Thus, a churn rate of 60% in two weeks means that two weeks after sign up, 60% of the users never come back.
-* Ratio of daily active users to monthly active users. If there is good repeat usage, this ratio will be high as more of the daily active users will keep coming back. If your app uses Facebook, you can get this ratio for free in the *insights* section.
+* Ratio of daily active users to monthly active users. If there is good repeat usage, this ratio will be high as more of the daily active users will keep coming back.
 
 <!--
 You should be only looking at cohorts
