@@ -5,17 +5,17 @@ title: Why you should look at cohorts
 # <span style="color:red">DRAFT</span>
 # Why you should look at cohorts
 
-Imagine that an entrepreneur came to you and showed you this graph.
+Imagine that an entrepreneur came to you and showed you this graph for an app we will call PinterestForDogs.
 
 <img class="iborder" src="/assets/users_growth.png"/>
 
-You would think the startup is doing quite well, right? Well, it depends.
+You would think PinterestForDogs is doing quite well, right? Well, it depends.
 
 A common mistake entrepreneurs make is to focus too much on user growth. User growth is a necessary but not a sufficient condition for success. Often, a much more important question is: “Are you retaining the users you are acquiring?” Eventually, all user acquisition channels saturate. If the startup is unable to retain the users it acquires, the result is a hollowing out effect. It looks like a ring of fire expanding outwards. The fire burns out everything inside and the only activity that survives is at the edges.
 
 <img class="iborder" src="/assets/brush_fire.jpg"/>
 
-I learned this the hard way with our first product. This was a walkie-talkie app in which a user could record a short audio clip and send it to a friend. We saw good viral growth as users invited others. User retention, however, was not so great; people would be very excited initially but within a few weeks they would drop off. The end result was an app that was downloaded by millions but used by few after some months.
+I learned this the hard way with our first product. This was a walkie-talkie app in which a user could record a short audio clip and send it to a friend. We saw good viral growth as users invited others. User retention, however, was not so great; people would be very excited initially but within a few weeks they would drop off. The end result was an app that was downloaded by millions but used by few.
 
 If the product is growing fast, it is too easy to forget retention. But to be successful, the product needs repeated usage which can only come by establishing a lasting habit in users' minds. Nir Eyal has some great ideas around this theme using a framework called [desire engine](http://www.nirandfar.com/2012/03/how-to-manufacture-desire.html).
 
@@ -30,7 +30,7 @@ A cohort analysis follows these users actions over a period of time.
 
 Th retention rate of a cohort for a period of time is the ratio of number of active users at the end of the period to the number of active users at the start of the period. The definition of an active user is usually very specific to the product. For our purposes, a user is active on a given day if he or she has visited the product on that day.
 
-Let us examine a concrete example by following two cohorts of 100 users, one cohort consisting of users who joined on January 1 and another who joined a week later on January 8.
+Let us continue with our example product, PinterestForDogs. We will measure the retention rate for two cohorts of 100 users, one cohort consisting of users who joined on January 1 and another who joined a week later on January 8.
 
 Picture of a graph
 
@@ -40,7 +40,9 @@ The same data can also be shown as a table:
 
 Picture of a table
 
-Cohorts can be used to track any metric of importance: app visits, number of shares, dollars spent, and so on. The cohort themselves can be grouped by any interesting characteristic: users coming from an ad channel, in a particular demographic, who have crossed some milestone in the app, etc.
+As you can see from the above example, the retention rate decays with time. Usually, there is a sharp drop off in the first few days as some users who were just trying the product fail to come back. The graph starts flattening in a few weeks and eventually plateaus. This final level consists of users that have become *hooked*: they have established a habit pattern to keep coming back to the product. These are your most interesting users.
+
+Cohorts can be used to track any metric of importance: app visits, number of likes, dollars spent, and so on. The cohort themselves can be formed using any interesting characteristic: users coming from an ad channel, in a particular demographic, who have crossed some milestone in the app, etc.
 
 Analytics platforms such as [Mixpanel](http://mixpanel.com) and [KissMetrics](http://kissmetrics.com) offer cohort analysis capabilities. There are also more specialized solutions such as [RJMetrics](http://rjmetrics.com).
 
@@ -55,23 +57,25 @@ Analytics platforms such as [Mixpanel](http://mixpanel.com) and [KissMetrics](ht
 
 * Keeps you honest. It is easy to drink your own kool-aid when you are experiencing heady user growth. Keeping a close eye on cohorts forces you to continue asking the right questions.
 
-## What retention numbers should you expect?
-When we started our company, I had little idea on what numbers to expect from our cohorts. After looking at our own cohorts and comparing them to others in the industry, I have come up with some rules of thumb.
+## What retention rate numbers should you expect?
+The retention rates naturally vary by the industry. An e-commerce application that is able to monetize users well can probably live with much lower retention rate than a free social networking app that needs millions of active users to be interesting. When we started our company, I had little idea on what numbers to expect. After looking at our own cohorts and comparing them to others in the industry, I have come up with some rules of thumb. The following numbers are applicable to mobile or web apps in the social networking/sharing space.
 
-If your cohorts are retaining more than 30% users after two weeks, congratulations, you can claim victory over the retention problem. For comparison with Twitter and Pinterest, RJMetrics did some great analysis and estimated their two week retention to be about _ and _.
+The number that I look at is the retention rate at the final plateau of users who are hooked. In the space that I am interested in, typically, 4 weeks is enough to establish the plateau level. After 4 weeks, if your retention rate is more than 20%, congratulations, you are done.  To compare these numbers for two successful companies in this space: Twitter and Pinterest, RJMetrics did some analysis and estimated their 4 week retention to be about _ and _.
 
 Graph with permission
 
-If your cohorts are retaining less than 10% of users after two weeks, the product is not working. You should take a hard look at the product, is it something that users really want? Are your users getting confused? These are tough questions. The sooner you ask them the better your startup will be.
+If your cohorts are retaining less than 5% of users after 4 weeks, the product is not working. You should take a hard look at the product. Is it something that users really want? Are your users getting confused? These are tough questions. The sooner you ask them the better your startup will be. If we look at the plateau retention rate of our example, PinterestForDogs, we see that it is only 3%. This implies that it is unlikely to succeed, even though the first graph of user growth looked great.
 
-There is a big gray area between 10% and 30%. The number will vary with your target audience.
+There is obviously a big gray area between 5% and 20%. The number will vary with your target audience. My advice is to look at your competitors and do some modeling on the minimum that you would need to hit meaningful milestones (I will talk more about modeling in a future post).
+
+Note that you do not have to wait for a 4 weeks to analyze your cohorts. Once you have looked at a number of cohorts, you can predict the plateau level from the first 2 weeks of activity itself. In fact, some people claim that even the retention rate after one day is enough.
 
 ## How to estimate your competitor's retention?
 
 Given how crucial retention is, would it not be awesome if you could estimate that of a competitor, or a company that you are researching? If there is any public user activity that is available, you can approximate a cohort analysis by selecting a random set of users and then following their public activity with time. The difficulty here is making sure your sample is not biased in any way. But even imperfect data is better than no data. One quick check that I have done in the past is to pick a few users from recent posts or likes and follow their activity backwards in time. If there are few users who have been active for a while, that is a sure indication of poor retention. This is not a very rigorous analysis but often gives useful data.
 
 ## Other measurement methods
-* Churn rate: this is the percentage of users who become inactive (churn out) in a period of time. Thus, a churn rate of 60% in two weeks means that two weeks after sign up, 60% of the users never come back.
+* Churn rate: this is the percentage of users who become inactive (churn out) in a period of time. Thus, a churn rate of 60% in two weeks means that two weeks after sign up, 60% of the users never come back. Essentially, it is the complement of the retention rate.
 * Ratio of daily active users to monthly active users. If there is good repeat usage, this ratio will be high as more of the daily active users will keep coming back.
 
 <!--
