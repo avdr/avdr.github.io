@@ -5,7 +5,7 @@ title: Why you should look at cohorts
 # <span style="color:red">DRAFT</span>
 # Why you should look at cohorts
 
-Imagine that an entrepreneur came to you and showed you this graph for an app we will call PinterestForDogs.
+Imagine that an entrepreneur showed you this graph for his new app, PinterestForDogs.
 
 <img class="iborder" src="/assets/users_growth.png"/>
 
@@ -20,21 +20,20 @@ I learned this the hard way with our first product. This was a walkie-talkie app
 Given the importance of retention, how do we track it? In my experience, the best way to do this is by measuring retention rate through [cohort analysis](http://cohortanalysis.com). Let us define these terms.
 
 #### Cohort Analysis
-
+<ul>
 A cohort is a group of people who share a particular characteristic over a period of time. An example is a group of users who joined on a particular day.
 A cohort analysis follows these users actions over a period of time.
-
+</ul>
 #### Retention Rate
-
+<ul>
 The retention rate of a cohort for a period of time is the ratio of number of active users at the end of the period to the number of active users at the start of the period. The definition of an active user is usually very specific to the product. For our purposes, a user is active on a given day if he or she has visited the product on that day.
+</ul>
 
-Let us continue with our example product, PinterestForDogs. We will measure the retention rate for two cohorts of 100 users, one cohort consisting of users who joined on January 1 and another who joined a week later on January 8.
+Continuing with our running example, PinterestForDogs, we will measure the retention rate for two cohorts of 100 users, one cohort consisting of users who joined on January 1 and another who joined a week later on January 8.
 
 Picture of a graph
 
-The above graph shows that of the January 1 cohort, there were 100 visits on the day they joined, 90 a day later, 80 two days later and so on. The January 8 cohort did slightly worse, with 100 visits on the first day, but only 89 on the second day and 78 on the third day.
-
-As you can see from the above example, the retention rate decays with time. The graph starts flattening in a few weeks and eventually plateaus. This final level consists of users that have become [hooked](http://www.nirandfar.com/2012/03/how-to-manufacture-desire.html): they have established a habit pattern to keep coming back to the product. These are your most interesting users.
+As you can see from the above example, the retention rate decays with time. The graph starts flattening in a few weeks and eventually plateaus. This final level consists of users that have become [hooked](http://www.nirandfar.com/2013/02/new-video-hooked-the-psychology-of-how-products-engage-us.html): they have established a habit pattern to keep coming back to the product. These are your most interesting users.
 
 Analytics platforms such as [Mixpanel](http://mixpanel.com) and [KissMetrics](http://kissmetrics.com) offer cohort analysis capabilities. There are also more specialized solutions such as [RJMetrics](http://rjmetrics.com).
 
@@ -50,9 +49,9 @@ Analytics platforms such as [Mixpanel](http://mixpanel.com) and [KissMetrics](ht
 * Keeps you honest. It is easy to drink your own kool-aid when you are experiencing heady user growth. Keeping a close eye on cohorts forces you to continue asking the right questions.
 
 ## What retention rate numbers should you expect?
-The retention rates naturally vary by the industry. An e-commerce application that is able to monetize users well can probably live with much lower retention rate than a free social networking app that needs millions of active users to be interesting. The following numbers are applicable to mobile or web apps in the social networking/sharing space.
+Naturally, the retention rates vary by the industry. An e-commerce application that is able to monetize users well can probably live with much lower retention rate than a free social networking app that needs millions of active users to be interesting. The following numbers are tailored to mobile or web apps in the social networking/sharing space.
 
-The number that I look at is the retention rate at the final plateau of users who are hooked. In the space that I am interested in, typically, 4 weeks is enough to establish the plateau level. After 4 weeks, if your retention rate is more than 20%, congratulations, you are done.  To compare these numbers for two successful companies in this space: Twitter and Pinterest, RJMetrics did some analysis and estimated their 4 week retention to be about _ and _.
+The number that I focus on is the retention rate once it reaches a plateau (In our space, 4 weeks after the cohort join date should be enough time for this). If this number is more than 20%, congratulations, you are doing great.  To compare yourself against two successful companies in this space: Twitter and Pinterest, you can look at the [analysis](http://blog.rjmetrics.com/2012/02/15/pinterest-data-analysis-an-inside-look) by RJMetrics (reproduced with permission below).
 
 Graph with permission
 
