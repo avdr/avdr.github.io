@@ -2,7 +2,6 @@
 layout: default
 title: Why you should look at cohorts
 ---
-# <span style="color:red">DRAFT</span>
 # Why you should look at cohorts
 
 Imagine that an entrepreneur showed you this graph for his new app, PinterestForDogs.
@@ -31,9 +30,9 @@ The retention rate of a cohort for a period of time is the ratio of number of ac
 
 Continuing with our running example, PinterestForDogs, we will measure the retention rate for two cohorts of 100 users, one cohort consisting of users who joined on January 1 and another who joined a week later on January 8.
 
-Picture of a graph
+<img class="iborder" src="/assets/retention.png"/>
 
-As you can see from the above example, the retention rate decays with time. The graph starts flattening in a few weeks and eventually plateaus. This final level consists of users that have become [hooked](http://www.nirandfar.com/2013/02/new-video-hooked-the-psychology-of-how-products-engage-us.html): they have established a habit pattern to keep coming back to the product. These are your most interesting users.
+As you can see from the above example, the retention rate decays with time. The graph starts flattening and eventually plateaus. Although, the January 1 cohort seems to be retaining slightly better, we see that both cohorts experience a sharp drop off and settle to a retention rate of 0.03 (3%). This final level consists of users that have become [hooked](http://www.nirandfar.com/2013/02/new-video-hooked-the-psychology-of-how-products-engage-us.html): they have established a habit pattern to keep coming back to the product. These are your most interesting users.
 
 Analytics platforms such as [Mixpanel](http://mixpanel.com) and [KissMetrics](http://kissmetrics.com) offer cohort analysis capabilities. There are also more specialized solutions such as [RJMetrics](http://rjmetrics.com).
 
@@ -53,13 +52,19 @@ Naturally, the retention rates vary by the industry. An e-commerce application t
 
 The number that I focus on is the retention rate once it reaches a plateau (In our space, 4 weeks after the cohort join date should be enough time for this). If this number is more than 20%, congratulations, you are doing great.  To compare yourself against two successful companies in this space: Twitter and Pinterest, you can look at the [analysis](http://blog.rjmetrics.com/2012/02/15/pinterest-data-analysis-an-inside-look) by RJMetrics (reproduced with permission below).
 
-Graph with permission
+<img class="iborder" src="/assets/twitter.jpg"/>
+
+From the graph above, the retention rate for Twitter was plateauing around 22%.
+
+<img class="iborder" src="/assets/pinterest4.jpg"/>
+
+On the other hand, the retention rate for Pinterest settles to an astonishing 45%!
 
 If your cohorts are retaining less than 5% of users after 4 weeks, the product is not working. You should take a hard look at the product. Is it something that users really want? Are your users getting confused? If we look at the plateau retention rate of our example, PinterestForDogs, we see that it is only 3%. This implies that it is unlikely to succeed, even though the first graph of user growth looked great.
 
 Cohort analysis asks tough questions. But, the sooner you ask them the better your startup will be.
 
-## How to estimate your competitor's retention?
+## Estimating your competitor's retention
 
 Given how crucial retention is, would it not be awesome if you could estimate that of a competitor, or a company that you are researching? If there is any public user activity that is available, you can approximate a cohort analysis by selecting a random set of users and then following their public activity with time. The difficulty here is making sure your sample is not biased in any way. But even imperfect data is better than no data. One quick check that I have done in the past is to pick a few users from recent posts or likes and follow their activity backwards in time. If there are few users who have been active for a while, that is a sure indication of poor retention. This is not a very rigorous analysis but often gives useful data.
 
