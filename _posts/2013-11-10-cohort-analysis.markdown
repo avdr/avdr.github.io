@@ -14,7 +14,7 @@ A common mistake entrepreneurs make is to focus too much on user growth. User gr
 
 <img class="iborder" src="/assets/brush_fire.jpg"/>
 
-I learned this the hard way with our first product. This was a walkie-talkie app in which a user could record a short audio clip and send it to a friend. We saw good viral growth as users invited others. User retention, however, was not so great; people would be very excited initially but within a few weeks they would drop off. The end result was an app that was downloaded by millions but used by few.
+I learned this the hard way with our first product. This was a walkie-talkie app called blip.me in which a user could record a short audio clip and send it to a friend. We saw good viral growth as users invited others. User retention, however, was not so great; people would be very excited initially but within a few weeks they would drop off. The end result was an app that was downloaded by millions but used by few.
 
 Given the importance of retention, how do we track it? In my experience, the best way to do this is by measuring retention rate through [cohort analysis](http://cohortanalysis.com). Let us define these terms.
 
@@ -54,7 +54,7 @@ The number that I focus on is the retention rate once it reaches a plateau (In o
 
 <img class="iborder" src="/assets/twitter.jpg"/>
 
-From the graph above, the retention rate for Twitter was plateauing around 22%.
+The graph above analyzes cohorts in time intervals of weeks instead of days and an active user is someone who has published at least once a week. We can see that by this measure, the retention rate for Twitter was plateauing around 22%.
 
 <img class="iborder" src="/assets/pinterest4.jpg"/>
 
@@ -66,5 +66,5 @@ Cohort analysis asks tough questions. But, the sooner you ask them the better yo
 
 ## Estimating your competitor's retention
 
-Given how crucial retention is, would it not be awesome if you could estimate that of a competitor, or a company that you are researching? If there is any public user activity that is available, you can approximate a cohort analysis by selecting a random set of users and then following their public activity with time. The difficulty here is making sure your sample is not biased in any way. But even imperfect data is better than no data. One quick check that I have done in the past is to pick a few users from recent posts or likes and follow their activity backwards in time. If there are few users who have been active for a while, that is a sure indication of poor retention. This is not a very rigorous analysis but often gives useful data.
+Given how crucial retention is, would it not be awesome if you could estimate that of a competitor, or a company that you are researching? If there is any public user activity that is available, you can approximate a cohort analysis by selecting a random set of users and then following their public activity with time. The difficulty here is making sure your sample is not biased in any way. But even imperfect data is better than no data. One quick check that I have done in the past is to pick a few users from recent posts or likes and follow their activity from the point they registered. If most such users drop off soon after registration, that is a sure indication of poor retention. This is not a very rigorous analysis but often gives useful data.
 
