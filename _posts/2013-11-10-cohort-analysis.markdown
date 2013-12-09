@@ -10,13 +10,13 @@ Imagine that an entrepreneur showed you this graph for his new app, PinterestFor
 
 You would think PinterestForDogs is doing quite well, right? Well, it depends.
 
-A common mistake entrepreneurs make is to focus too much on user growth. User growth is a necessary but not a sufficient condition for success. Often, a much more important question is: “Are you retaining the users you are acquiring?” Eventually, all user acquisition channels saturate. If the startup is unable to retain the users it acquires, the result is a hollowing out effect. It looks like a ring of fire expanding outwards. The fire burns out everything inside and the only activity that survives is at the edges.
+A common mistake entrepreneurs make is to focus too much on user growth. Often, it is more important to ask: “Is the product creating a habit so users keep coming back?”, “How do we measure the strength of such a habit?” These are crucial because without an established user habit, it is impossible to sustain a healthy user base. Eventually, all user acquisition channels saturate. If the users do not keep coming back, the result is a hollowing out effect. It looks like a ring of fire expanding outwards. The fire burns out everything inside and the only activity that survives is at the edges.
 
 <img class="iborder" src="/assets/brush_fire.jpg"/>
 
 I learned this the hard way with our first product. This was a walkie-talkie app called blip.me in which a user could record a short audio clip and send it to a friend. We saw good viral growth as users invited others. User retention, however, was not so great; people would be very excited initially but within a few weeks they would drop off. The end result was an app that was downloaded by millions but used by few.
 
-Given the importance of retention, how do we track it? In my experience, the best way to do this is by measuring retention rate through [cohort analysis](http://cohortanalysis.com). Let us define these terms.
+Given the importance of establishing a user habit, how do we track it? In my experience, the best way to do this is by measuring retention rate through [cohort analysis](http://cohortanalysis.com). Let us define these terms.
 
 #### Cohort Analysis
 <ul>
@@ -60,7 +60,7 @@ The graph above analyzes cohorts in time intervals of weeks instead of days and 
 
 On the other hand, the retention rate for Pinterest settles to an astonishing 45%!
 
-If your cohorts are retaining less than 5% of users after 4 weeks, the product is not working. You should take a hard look at the product. Is it something that users really want? Are your users getting confused? If we look at the plateau retention rate of our example, PinterestForDogs, we see that it is only 3%. This implies that it is unlikely to succeed, even though the first graph of user growth looked great.
+If your cohorts are retaining less than 5% of users after 4 weeks, the product has not been able to establish a good user habit. You should take a hard look at the product. Is it something that users really want? Are your users getting confused? If we look at the plateau retention rate of our example, PinterestForDogs, we see that it is only 3%. This implies that it is unlikely to succeed, even though the first graph of user growth looked great.
 
 Cohort analysis asks tough questions. But, the sooner you ask them the better your startup will be.
 
@@ -68,3 +68,6 @@ Cohort analysis asks tough questions. But, the sooner you ask them the better yo
 
 Given how crucial retention is, would it not be awesome if you could estimate that of a competitor, or a company that you are researching? If there is any public user activity that is available, you can approximate a cohort analysis by selecting a random set of users and then following their public activity with time. The difficulty here is making sure your sample is not biased in any way. But even imperfect data is better than no data. One quick check that I have done in the past is to pick a few users from recent posts or likes and follow their activity from the point they registered. If most such users drop off soon after registration, that is a sure indication of poor retention. This is not a very rigorous analysis but often gives useful data.
 
+## Summing up
+
+To succeed, a product has to create a lasting habit so that users keep coming back. Without such a habit, even if there is good user aquisition, it is hard to establish a growing base of active users. Simple metrics such as retention rate applied on cohorts of new users are valuable in figuring out the strength of the habit. Cohort analysis also lead to valuable questions and insights that are crucial for the success of the product.
