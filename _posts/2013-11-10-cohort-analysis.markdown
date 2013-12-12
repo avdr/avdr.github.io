@@ -4,6 +4,8 @@ title: Why you should look at cohorts
 ---
 # Why you should look at cohorts
 
+*Nir’s Note: In this guest post, Abhay Vardhan, discusses how to measure the strength of user habits with cohort analysis and retention rate. Abhay is a founder of Blippy.com and blogs at [abhayv.com](http://abhayv.com). Follow Abhay on Twitter @abhayvardhan.*
+
 Imagine that an entrepreneur showed you this graph for his new app, PinterestForDogs.
 
 <img class="iborder" src="/assets/users_growth.png"/>
@@ -75,3 +77,5 @@ Given how crucial retention is, would it not be awesome if you could estimate th
 ## Summing up
 
 To succeed, a product has to create a lasting habit so that users keep coming back. Without such a habit, even if there is good user aquisition, it is hard to establish a growing base of active users. Simple metrics such as retention rate applied on cohorts of new users are valuable in figuring out the strength of the habit. Cohort analysis also lead to valuable questions and insights that are crucial for the success of the product.
+
+*Many thanks for Nir Eyal, David King, Tim Courrejou, and Sameer Shariff for comments on earlier drafts of this post.*
