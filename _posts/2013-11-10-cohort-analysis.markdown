@@ -13,7 +13,9 @@ You would think PinterestForDogs is doing quite well, right? Well, it depends.
 A common mistake entrepreneurs make is to focus too much on user growth. Often, it is more important to ask: “Is the product creating a habit so users keep coming back?”, “How do we measure the strength of such a habit?” These are crucial because without an established user habit, it is impossible to sustain a healthy user base. Eventually, all user acquisition channels saturate. If the users do not keep coming back, the result is a hollowing out effect. It looks like a ring of fire expanding outwards. The fire burns out everything inside and the only activity that survives is at the edges.
 
 <img class="iborder" src="/assets/brush_fire.jpg"/>
-<!-- Image from http://commons.wikimedia.org/wiki/File:Susie_Fire_on_August_4,_2011_northwest_of_Elko,_Nevada.jpg. Licensed under Creative Commons Attribution-Share Alike 3.0 Unported -->
+<!---
+Image from http://commons.wikimedia.org/wiki/File:Susie_Fire_on_August_4,_2011_northwest_of_Elko,_Nevada.jpg. Licensed under Creative Commons Attribution-Share Alike 3.0 Unported
+-->
 I learned this the hard way with our first product. This was a walkie-talkie app called blip.me in which a user could record a short audio clip and send it to a friend. We saw good viral growth as users invited others. User retention, however, was not so great; people would be very excited initially but within a few weeks they would drop off. The end result was an app that was downloaded by millions but used by few.
 
 Given the importance of establishing a user habit, how do we track it? In my experience, the best way to do this is by measuring retention rate through [cohort analysis](http://cohortanalysis.com). Let us define these terms.
