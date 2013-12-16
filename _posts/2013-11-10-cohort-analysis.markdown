@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Why you should look at cohorts
+title: Are companies too obsessed with growth? How to measure habits
 ---
-# Why you should look at cohorts
+# Are companies too obsessed with growth? How to measure habits
 
-*Nir’s Note: In this guest post, Abhay Vardhan, discusses how to measure the strength of user habits with cohort analysis and retention rate. Abhay is a founder of Blippy.com and blogs at [abhayv.com](http://abhayv.com). Follow Abhay on Twitter @abhayvardhan.*
+*This post initially appeared on http://www.nirandfar.com/2013/12/are-you-focusing-too-much-on-growth-how-to-measure-habits.html*
 
 Imagine that an entrepreneur showed you this graph for his new app, PinterestForDogs.
 
