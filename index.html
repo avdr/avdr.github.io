@@ -21,9 +21,6 @@ If you would like to see a more detailed profile, please visit <a href="http://w
 <h2>Recent posts</h2>
     {% for post in site.posts %}
       <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
-          <p>
-              {{ post.excerpt }}
-          </p>
       {% unless forloop.last %}
       <hr>
       {% endunless %}

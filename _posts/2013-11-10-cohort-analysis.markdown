@@ -4,7 +4,7 @@ title: Are companies too obsessed with growth? How to measure habits
 ---
 # Are companies too obsessed with growth? How to measure habits
 
-*This post initially appeared on http://www.nirandfar.com/2013/12/are-you-focusing-too-much-on-growth-how-to-measure-habits.html*
+*This post initially appeared at [NirAndFar.com](http://www.nirandfar.com/2013/12/are-you-focusing-too-much-on-growth-how-to-measure-habits.html)*
 
 Imagine that an entrepreneur showed you this graph for his new app, PinterestForDogs.
 
@@ -77,5 +77,7 @@ Given how crucial retention is, would it not be awesome if you could estimate th
 ## Summing up
 
 To succeed, a product has to create a lasting habit so that users keep coming back. Without such a habit, even if there is good user aquisition, it is hard to establish a growing base of active users. Simple metrics such as retention rate applied on cohorts of new users are valuable in figuring out the strength of the habit. Cohort analysis also lead to valuable questions and insights that are crucial for the success of the product.
+
+*Discuss on [Hacker News](https://news.ycombinator.com/item?id=6917777)*
 
 *Many thanks for Nir Eyal, David King, Tim Courrejou, and Sameer Shariff for comments on earlier drafts of this post.*
