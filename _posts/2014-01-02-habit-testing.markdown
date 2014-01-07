@@ -4,10 +4,10 @@ title: User actions and habit testing
 ---
 # User actions and habit testing
 
-<link rel="stylesheet" type="text/css" href="style.css" />
-<script src="d3.v3.min.js"></script>
-<div class="graph"></div>
-<script src="timeline.js"></script>
+<link rel="stylesheet" type="text/css" href="/d3/style.css" />
+<script src="/d3/d3.v3.min.js"></script>
+<div class="graph" style="float:right"></div>
+<script src="/d3/timeline.js"></script>
 
 If you take each user and plot his actions on your product in a timeline, you get something like the following figure. Time flows from the top to bottom. All users start with the action "start" indicated in yellow and continue to execute the different actions possible in the product.
 
